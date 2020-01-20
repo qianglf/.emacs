@@ -1,0 +1,31 @@
+(deftheme DeepBrain
+  "Created 2019-03-14.")
+
+(custom-theme-set-faces
+ 'DeepBrain
+ '(cursor ((t (:background "thistle"))))
+ '(error ((((class color) (min-colors 89)) (:foreground "salmon1"))))
+ '(warning ((((class color) (min-colors 89)) (:foreground "orange"))))
+ '(success ((t (:foreground "yellow green"))))
+ '(compilation-mode-line-fail ((((class color) (min-colors 89)) (:foreground "dark green"))))
+ '(compilation-mode-line-run ((((class color) (min-colors 89)) (:foreground "dark goldenrod"))))
+ '(compilation-mode-line-exit ((((class color) (min-colors 89)) (:foreground "SpringGreen4"))))
+ '(highlight ((t (:background "dark green" :foreground "white"))))
+ '(region ((t (:background "dark slate gray" :foreground "white"))))
+ '(secondary-selection ((t (:background "dark slate gray"))))
+ '(isearch ((t (:background "dark goldenrod" :foreground "white"))))
+ '(lazy-highlight ((t (:background "gray25"))))
+ '(font-lock-builtin-face ((t (:foreground "LightSteelBlue"))))
+ '(font-lock-comment-face ((t (:foreground "SpringGreen3"))))
+ '(font-lock-constant-face ((t (:foreground "turquoise"))))
+ '(font-lock-function-name-face ((((class color) (min-colors 89)) (:foreground "pale green"))))
+ '(font-lock-keyword-face ((t (:foreground "white" :slant italic))))
+ '(font-lock-string-face ((t (:foreground "dark khaki"))))
+ '(font-lock-type-face ((t (:foreground "orange"))))
+ '(font-lock-variable-name-face ((((class color) (min-colors 89)) (:foreground "yellow green"))))
+ '(link ((((class color) (min-colors 89)) (:underline t :foreground "cyan"))))
+ '(link-visited ((((class color) (min-colors 89)) (:underline t :foreground "dark cyan"))))
+ '(mode-line ((t (:background "wheat" :foreground "black" :box (:line-width -1 :style released-button)))))
+ '(default ((t (:background "#04282e" :foreground "wheat")))))
+
+(provide-theme 'DeepBrain)
