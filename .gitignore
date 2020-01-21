@@ -3,3 +3,5 @@ workspace/
 .cache/
 .lsp-session-v1
 .last-package-update-day
+recentf
+auto-save-list/
